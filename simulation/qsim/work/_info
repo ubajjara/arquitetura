@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Uba\Documents\Arquitetura\simulation\qsim
+vMod_Teste
+Z1 ILHYZ2jeXFbHHV1;Z[2CTT0
+Z2 VK`d1[?KbN;DoS]1hM94Qb3
+Z3 dC:\Users\Uba\Documents\Arquitetura\simulation\qsim
+Z4 w1779389849
+Z5 8Mod_Teste.vo
+Z6 FMod_Teste.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Mod_Teste.vo|
+Z9 o-work work -O0
+Z10 n@mod_@teste
+!i10b 1
+Z11 !s100 NYonL>Z1d]abEN@o]G7:c0
+!s85 0
+Z12 !s108 1779389850.053000
+Z13 !s107 Mod_Teste.vo|
+!s101 -O0
+vMod_Teste_vlg_check_tst
+!i10b 1
+Z14 !s100 7F8gama7:_V03^9gM<Jd70
+Z15 IBEcN?9i8[Z8ljV0A4L^Pb0
+Z16 VZPVJ4FoTkGcgIh[2QZ^FP1
+R3
+Z17 w1779389848
+Z18 8Mod_Teste.vt
+Z19 FMod_Teste.vt
+L0 71
+R7
+r1
+!s85 0
+31
+Z20 !s108 1779389850.141000
+Z21 !s107 Mod_Teste.vt|
+Z22 !s90 -work|work|Mod_Teste.vt|
+!s101 -O0
+R9
+Z23 n@mod_@teste_vlg_check_tst
+vMod_Teste_vlg_sample_tst
+!i10b 1
+Z24 !s100 9^HOHK0^Ul?hKF1f@nY^c2
+Z25 I7[R7f0TGzma5IIj<NYS660
+Z26 VlG7R9WDMc;l1LOVf2;n[]1
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@mod_@teste_vlg_sample_tst
+vMod_Teste_vlg_vec_tst
+!i10b 1
+!s100 S^G5d;[3iB5ioC6YZd2g<0
+I?_JM[SU@3FWe@bRDA_=nf2
+Z28 V4h^N8TEF^h^5beeNeGm?e0
+R3
+R17
+R18
+R19
+Z29 L0 363
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z30 n@mod_@teste_vlg_vec_tst
