@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Mod_Teste
-Thu Jul 02 21:58:49 2026
+Fri Jul 17 00:09:49 2026
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Jul 02 21:58:49 2026 ;
+; EDA Netlist Writer Status ; Successful - Fri Jul 17 00:09:49 2026 ;
 ; Revision Name             ; Mod_Teste                             ;
 ; Top-level Entity Name     ; Mod_Teste                             ;
 ; Family                    ; Cyclone II                            ;
@@ -80,13 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Jul 02 21:58:47 2026
+    Info: Processing started: Fri Jul 17 00:09:48 2026
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off Mod_Teste -c Mod_Teste
 Info (204019): Generated file Mod_Teste.vo in folder "C:/Users/Uba/Documents/Arquitetura/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4622 megabytes
-    Info: Processing ended: Thu Jul 02 21:58:49 2026
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4529 megabytes
+    Info: Processing ended: Fri Jul 17 00:09:49 2026
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
 
 

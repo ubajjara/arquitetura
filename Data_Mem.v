@@ -7,22 +7,11 @@ module Data_Mem(
     output [31:0] RD     // dado de leitura
 );
 
-    reg [31:0] mem [0:1023];
-    integer i;
-
-    // Leitura: combinacional, depende só do endereço
-    assign RD = mem[A];
-
-    // Escrita: sequencial, na subida do clk, se WE = 1
-    // Reset: assíncrono, apaga tudo na borda de descida de rst
-    always @(posedge clk or negedge rst) begin
-        if (!rst) begin
-            for (i = 0; i < 1024; i = i + 1)
-                mem[i] <= 32'b0;
-        end else begin
-            if (WE)
-                mem[A] <= WD;
-        end
-    end
-
+    ram1024x32 ram_inst (
+		.address (A),
+		.clock (clk),
+		.data (WD),
+		.wren (WE),
+		.q (RD)
+	 );
 endmodule

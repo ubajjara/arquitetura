@@ -1,10 +1,10 @@
-module Div_Freq (
-    input  wire clk_in,   // CLOCK_50 = 50 MHz
-    output reg  clk_out   // saída = 2 Hz
+module Div_Freq #(
+    // CLOCK_50 / (2 * 2_500_000) = 10 Hz
+    parameter integer DIVISOR = 2_500_000
+) (
+    input  wire clk_in,
+    output reg  clk_out
 );
-
-    // 50.000.000 / (2 * 12.500.000) = 2 Hz
-    parameter DIVISOR = 12_500_000;
 
     reg [24:0] counter;
 
@@ -22,5 +22,4 @@ module Div_Freq (
             counter <= counter + 1'b1;
         end
     end
-
 endmodule

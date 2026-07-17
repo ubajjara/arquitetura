@@ -7,7 +7,7 @@ module reg_paralelo_4bits (
 
     always @(posedge clk or negedge rst_n) begin
         if (!rst_n) begin
-            q <= 31'b0;
+            q <= 32'b0;
         end 
         else  begin
             q <= data_in;
